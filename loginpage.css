@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Secular One";
+}
+body {
+  height: 100vh;
+  background: linear-gradient(#ffffff 50%, #f3f3f3 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  font-family: Securar One;
+  width: 90%;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0px 6px 6px 8px rgba(26, 24, 24, 0.25);
+}
+.container .estabelecimento {
+  width: 150px;
+  height: 60px;
+}
+.container .usuario {
+  width: 150px;
+  height: 60px;
+}
+.container .senha {
+  width: 150px;
+  height: 60px;
+}
