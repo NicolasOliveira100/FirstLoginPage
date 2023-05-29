@@ -15,21 +15,57 @@ body {
 .container {
   font-family: Securar One;
   width: 90%;
-  height: 800px;
+  height: 90%;
   background-color: rgb(255, 255, 255);
   display: flex;
   border-radius: 20px;
   box-shadow: 0px 6px 6px 8px rgba(26, 24, 24, 0.25);
+  align-items: center;
+  border-color: black;
+  position: relative;
+}
+.container img{
+  margin-left: 500px;
+  width: 600px;
+  height: 600px;
+  left: 20%;
+  top: 20%;
+}
+.container .pinfos{
+  
+  background-color: aqua;
+  width: 600px;
+  height: 400px;
+  
 }
 .container .estabelecimento {
-  width: 150px;
+  width: 200px;
   height: 60px;
+  border-radius: 20px;
+  display: flex;
+  
 }
 .container .usuario {
-  width: 150px;
+  width: 200px;
   height: 60px;
+  border-radius: 20px;
+  display: flex;
 }
 .container .senha {
-  width: 150px;
+  width: 200px;
   height: 60px;
+  border-radius: 20px;
+  display: flex;
+}
+.container .pinfos .codesta{
+margin: 20px;
+padding-left: 50px;
+}
+.container .pinfos .usu{
+margin: 20px;
+padding-left: 50px;
+}
+.container .pinfos .password{
+margin: 20px;
+padding-left: 50px;
 }
