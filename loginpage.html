@@ -1,31 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="loginpage.css" />
-    <title>Login Page</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="pinfos">
-        <div class="codesta">
-          <span>Cod. de Estabelecimento</span>
-          <input type="text" placeholder="Cod. do Estabelecimento" class="estabelecimento" />
-        </div>
-        <div class="usu">
-          <span>Usuário</span> 
-        <input type="text" placeholder="Usuário" class="usuario" />
-        </div>
-        <div class="password">
-          <span>Senha</span>
-          <input type="text" placeholder="Senha" class="senha" />
-        </div>
-      </div>
-      <div class="img">
-        <img src="" alt="">
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="loginpage.css" />
+  <title>First Login Page</title>
+  <style>
+    :root{
+  --primary: #11998e;
+  --secondary: #38ef7d;
+  --white: #fff;
+  --gray: #9b9b9b;
+}
+
+.form {
+  position: relative;
+  padding: 15px;
+  margin-top: 10px;
+  /*width: 50%;*/
+}
+
+body {
+  display: flex;
+  gap: 10px;
+  justify-items:content;
+  align-items:content;
+  
+  
+}
+.body2{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.textos {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: rgb(241, 107, 5);
+  border-radius: 20px;
+}
+
+.img {
+  width: 1070px;
+  height: 700px;
+  background-color: rgb(3, 9, 117);
+  border-radius: 20px;
+}
+  </style>
+</head>
+<body>
+<div class="body2">
+  <div class="textos">
+    <div class="form">
+      <input type="text" class="estabelecimento" placeholder="Cod. de Estabelecimento" name="estabelecimento" id="estabelecimento" required />
+      <label for="estabelecimento" class="label_estabelecimento">Cod. de Estabelecimento</label>
+      <input type="text" class="usuario" placeholder="Usuário" required />
+      <label for="usuario" class="label_usuario">Usuário</label>
+      <input type="password" class="senha" placeholder="Senha" required />
+      <label for="senha" class="label_senha">Senha</label>
+      <button>Acessar</button>
     </div>
-  </body>
+  </div>
+  <div class="img">
+  </div>
+</div>
+</body>
 </html>
